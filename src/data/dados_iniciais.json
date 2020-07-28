@@ -1,12 +1,11 @@
 {
   "categorias": [
     {
-      "titulo": "Rock",
-      "link": "https://www.alura.com.br/formacao-front-end",
-      "cor": "#6BD1FF",
+      "titulo": "Anos 2010",
+      "cor": "#D68123",
       "link_extra": {
-        "text": "Rockão da massa",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Não sei o que se tornou após 2010, mas são musicas da atualidade",
+        "url": "https://pt.wikipedia.org/wiki/D%C3%A9cada_de_2010"
       },
       "videos": [
         {
@@ -14,128 +13,164 @@
           "url": "https://www.youtube.com/watch?v=8SbUC-UaAxE"
         },
         {
-          "titulo": "FOO FIGHTERS",
-          "url": "https://www.youtube.com/watch?v=SBjQ9tuuTJQ"
+          "titulo": "Adele - Someone Like You",
+          "url": "https://www.youtube.com/watch?v=hLQl3WQQoQ0"
         },
         {
-          "titulo": "OASIS",
-          "url": "https://www.youtube.com/watch?v=BJKpUH2kJQg"
+          "titulo": "The Black Eyed Peas - The Time",
+          "url": "https://www.youtube.com/watch?v=JwQZQygg3Lk"
         },
         {
-          "titulo": "RED HOT CHILI PEPPERS",
-          "url": "https://www.youtube.com/watch?v=oDNcL1VP3rY"
+          "titulo": "Foo Fighters - Walk",
+          "url": "https://www.youtube.com/watch?v=4PkcfQtibmU"
         },
         {
-          "titulo": "MUSE",
-          "url": "https://www.youtube.com/watch?v=O2IuJPh6h_A"
+          "titulo": "Pharrell Williams - Happy",
+          "url": "https://www.youtube.com/watch?v=ZbZSe6N_BXs"
         },
         {
-          "titulo": "KINGS OF LEON",
-          "url": "https://www.youtube.com/watch?v=RF0HhrwIwp0"
+          "titulo": "Katy Perry - California Gurls",
+          "url": "https://www.youtube.com/watch?v=F57P9C4SAW4"
         },
         {
-          "titulo": "MATCHBOX 20",
-          "url": "https://www.youtube.com/watch?v=S5zttEPcCuQ"
+          "titulo": "Arctic Monkeys - Do I Wanna Know?",
+          "url": "https://www.youtube.com/watch?v=bpOSxM0rNPM"
         },
         {
-          "titulo": "QUEEN",
-          "url": "https://www.youtube.com/watch?v=oMOoV6RuJps"
+          "titulo": "Imagine Dragons - Radioactive",
+          "url": "https://www.youtube.com/watch?v=ktvTqknDobU"
         }        
       ]
     },
     {
-      "titulo": "Metal",
-      "cor": "#00C86F",
+      "titulo": "Anos 2000",
+      "cor": "#248BD6",
       "link_extra": {
-        "text": "Musicas de Metal",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "Os anos 2000",
+        "url": "https://pt.wikipedia.org/wiki/D%C3%A9cada_de_2000"
       },
       "videos": [
         {
-          "titulo": "SLIPKNOT",
-          "url": "https://www.youtube.com/watch?v=5abamRO41fE"
+          "titulo": "FURACÃO 2000!",
+          "url": "https://www.youtube.com/watch?v=59u21arrp3g"
         },
         {
-          "titulo": "PROJECT 46",
-          "url": "https://www.youtube.com/watch?v=V_VCN0h94vE"
+          "titulo": "Justin Timberlake - What Goes Around...Comes Around",
+          "url": "https://www.youtube.com/watch?v=TOrnUquxtwA"
         },
         {
-          "titulo": "SEPULTURA",
-          "url": "https://www.youtube.com/watch?v=NiwqRSCWw2g"
+          "titulo": "OutKast - Hey Ya!",
+          "url": "https://www.youtube.com/watch?v=PWgvGjAhvIw"
         },
         {
-          "titulo": "KORN",
-          "url": "https://www.youtube.com/watch?v=jRGrNDV2mKc"
+          "titulo": "The Calling - Wherever You Will Go",
+          "url": "https://www.youtube.com/watch?v=iAP9AF6DCu4"
+        },
+        {
+          "titulo": "Beyoncé - Crazy In Love",
+          "url": "https://www.youtube.com/watch?v=JptwkEhdNfY"
+        },
+        {
+          "titulo": "Avril Lavigne - Girlfriend",
+          "url": "https://www.youtube.com/watch?v=Bg59q4puhmg"
         }, 
         {
-          "titulo": "METALLICA",
-          "url": "https://www.youtube.com/watch?v=hEMv3MbiSwk"
+          "titulo": "Maroon 5 - This Love",
+          "url": "https://www.youtube.com/watch?v=XPpTgCho5ZA"
+        }, 
+        {
+          "titulo": "Pitty - Equalize",
+          "url": "https://www.youtube.com/watch?v=x7WHL-o5tMo"
+        },
+        {
+          "titulo": "Skank - Vou Deixar",
+          "url": "https://www.youtube.com/watch?v=j9tAJ3ZyLMY"
         }
       ]
     },
     {
-      "titulo": "Hard Rock",
-      "cor": "#9cd33b",
+      "titulo": "Anos 90",
+      "cor": "#34ED79",
       "link_extra": {
-        "text": "Musicas de hard rock",
-        "url": "https://www.alura.com.br/formacao-data-science"
+        "text": "Os anos 90",
+        "url": "https://pt.wikipedia.org/wiki/D%C3%A9cada_de_1990"
       },
       "videos": [
         {
-          "titulo": "POISON",
-          "url": "https://www.youtube.com/watch?v=xCChxBSRo1Y"
+          "titulo": "Nirvana - Smells Like Teen Spirit",
+          "url": "https://www.youtube.com/watch?v=hTWKbfoikeg"
         },
         {
-          "titulo": "GUNS N ROSES",
-          "url": "https://www.youtube.com/watch?v=Rbm6GXllBiw"
+          "titulo": "Whitney Houston - I Will Always Love You",
+          "url": "https://www.youtube.com/watch?v=3JWTaaS7LdU"
+        },
+        {
+          "titulo": "Guns N' Roses - November Rain",
+          "url": "https://www.youtube.com/watch?v=8SbUC-UaAxE"
+        },
+        {
+          "titulo": "Spice Girls - Wannabe",
+          "url": "https://www.youtube.com/watch?v=gJLIiF15wjQ"
+        },
+        {
+          "titulo": "The Verve - Bitter Sweet Symphony",
+          "url": "https://www.youtube.com/watch?v=1lyu1KKwC74"
+        },
+        {
+          "titulo": "Cássia Eller - Malandragem",
+          "url": "https://www.youtube.com/watch?v=bFRBQjBuQmo"
         }
       ]
     },
     {
-      "titulo": "Punk",
-      "cor": "orange",
+      "titulo": "Anos 80",
+      "cor": "#E069A4",
+      "link_extra": {
+        "text": "Os anos 80",
+        "url": "https://pt.wikipedia.org/wiki/D%C3%A9cada_de_1980"
+      },
       "videos": [
         {
-          "titulo": "OFFSPRING",
-          "url": "https://www.youtube.com/watch?v=7iNbnineUCI"
+          "titulo": "Guns N' Roses - Sweet Child O' Mine",
+          "url": "https://www.youtube.com/watch?v=1w7OgIMMRc4"
         },
         {
-          "titulo": "BLINK 182",
-          "url": "https://www.youtube.com/watch?v=s1tAYmMjLdY"
+          "titulo": "George Michael - Careless Whisper",
+          "url": "https://www.youtube.com/watch?v=izGwDsrQ1eQ"
         },
         {
-          "titulo": "GREEN DAY",
-          "url": "https://www.youtube.com/watch?v=Soa3gO7tL-c"
+          "titulo": "Cyndi Lauper - Girls Just Want To Have Fun",
+          "url": "https://www.youtube.com/watch?v=PIb6AZdTr-A"
+        },
+        {
+          "titulo": "Bonnie Tyler - Total Eclipse of the Heart",
+          "url": "https://www.youtube.com/watch?v=lcOxhH8N3Bo"
         }
       ]
     },
     {
-      "titulo": "GRUNGE",
+      "titulo": "Desenhos",
       "cor": "red",
       "link_extra": {
-        "text": "GRUNGE MUSIC",
+        "text": "Melhores aberturas de desenho",
         "url": "https://www.youtube.com/watch?v=hTWKbfoikeg"
       },
       "videos": [
         {
-          "titulo": "NIRVANA",
-          "url": "https://www.youtube.com/watch?v=hTWKbfoikeg"
+          "titulo": "Pegasus Fantasy - Saint Seiya",
+          "url": "https://www.youtube.com/watch?v=Bu533OKYHyc"
         },
         {
-          "titulo": "PEARL JAM",
-          "url": "https://www.youtube.com/watch?v=CxKWTzr-k6s"
+          "titulo": "Naruto Shippuden Opening 3 - Blue Bird",
+          "url": "https://www.youtube.com/watch?v=aJRu5ltxXjc"
         },
         {
-          "titulo": "STONE TEMPLE PILOTS",
-          "url": "https://www.youtube.com/watch?v=yjJL9DGU7Gg"
+          "titulo": "Pokémon - Abertura",
+          "url": "https://www.youtube.com/watch?v=-PlAg8R9TG4"
         },
         {
-          "titulo": "SOUNDGARDEN",
-          "url": "https://www.youtube.com/watch?v=ySzrJ4GRF7s"
-        },
-        {
-          "titulo": "ALICE IN CHAINS",
-          "url": "https://www.youtube.com/watch?v=zTuD8k3JvxQ"
+          "titulo": "Phineas e Ferb - Abertura",
+          "url": "https://www.youtube.com/watch?v=A1a4CJjSBd4"
         }
       ]
     },
