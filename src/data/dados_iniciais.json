@@ -1,0 +1,169 @@
+{
+  "categorias": [
+    {
+      "titulo": "Rock",
+      "link": "https://www.alura.com.br/formacao-front-end",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Rockão da massa",
+        "url": "https://www.alura.com.br/cursos-online-front-end"
+      },
+      "videos": [
+        {
+          "titulo": "GUNS N' ROSES",
+          "url": "https://www.youtube.com/watch?v=8SbUC-UaAxE"
+        },
+        {
+          "titulo": "FOO FIGHTERS",
+          "url": "https://www.youtube.com/watch?v=SBjQ9tuuTJQ"
+        },
+        {
+          "titulo": "OASIS",
+          "url": "https://www.youtube.com/watch?v=BJKpUH2kJQg"
+        },
+        {
+          "titulo": "RED HOT CHILI PEPPERS",
+          "url": "https://www.youtube.com/watch?v=oDNcL1VP3rY"
+        },
+        {
+          "titulo": "MUSE",
+          "url": "https://www.youtube.com/watch?v=O2IuJPh6h_A"
+        },
+        {
+          "titulo": "KINGS OF LEON",
+          "url": "https://www.youtube.com/watch?v=RF0HhrwIwp0"
+        },
+        {
+          "titulo": "MATCHBOX 20",
+          "url": "https://www.youtube.com/watch?v=S5zttEPcCuQ"
+        },
+        {
+          "titulo": "QUEEN",
+          "url": "https://www.youtube.com/watch?v=oMOoV6RuJps"
+        }        
+      ]
+    },
+    {
+      "titulo": "Metal",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Musicas de Metal",
+        "url": "https://www.alura.com.br/cursos-online-programacao"
+      },
+      "videos": [
+        {
+          "titulo": "SLIPKNOT",
+          "url": "https://www.youtube.com/watch?v=5abamRO41fE"
+        },
+        {
+          "titulo": "PROJECT 46",
+          "url": "https://www.youtube.com/watch?v=V_VCN0h94vE"
+        },
+        {
+          "titulo": "SEPULTURA",
+          "url": "https://www.youtube.com/watch?v=NiwqRSCWw2g"
+        },
+        {
+          "titulo": "KORN",
+          "url": "https://www.youtube.com/watch?v=jRGrNDV2mKc"
+        }, 
+        {
+          "titulo": "METALLICA",
+          "url": "https://www.youtube.com/watch?v=hEMv3MbiSwk"
+        }
+      ]
+    },
+    {
+      "titulo": "Hard Rock",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "Musicas de hard rock",
+        "url": "https://www.alura.com.br/formacao-data-science"
+      },
+      "videos": [
+        {
+          "titulo": "POISON",
+          "url": "https://www.youtube.com/watch?v=xCChxBSRo1Y"
+        },
+        {
+          "titulo": "GUNS N ROSES",
+          "url": "https://www.youtube.com/watch?v=Rbm6GXllBiw"
+        }
+      ]
+    },
+    {
+      "titulo": "Punk",
+      "cor": "orange",
+      "videos": [
+        {
+          "titulo": "OFFSPRING",
+          "url": "https://www.youtube.com/watch?v=7iNbnineUCI"
+        },
+        {
+          "titulo": "BLINK 182",
+          "url": "https://www.youtube.com/watch?v=s1tAYmMjLdY"
+        },
+        {
+          "titulo": "GREEN DAY",
+          "url": "https://www.youtube.com/watch?v=Soa3gO7tL-c"
+        }
+      ]
+    },
+    {
+      "titulo": "GRUNGE",
+      "cor": "red",
+      "link_extra": {
+        "text": "GRUNGE MUSIC",
+        "url": "https://www.youtube.com/watch?v=hTWKbfoikeg"
+      },
+      "videos": [
+        {
+          "titulo": "NIRVANA",
+          "url": "https://www.youtube.com/watch?v=hTWKbfoikeg"
+        },
+        {
+          "titulo": "PEARL JAM",
+          "url": "https://www.youtube.com/watch?v=CxKWTzr-k6s"
+        },
+        {
+          "titulo": "STONE TEMPLE PILOTS",
+          "url": "https://www.youtube.com/watch?v=yjJL9DGU7Gg"
+        },
+        {
+          "titulo": "SOUNDGARDEN",
+          "url": "https://www.youtube.com/watch?v=ySzrJ4GRF7s"
+        },
+        {
+          "titulo": "ALICE IN CHAINS",
+          "url": "https://www.youtube.com/watch?v=zTuD8k3JvxQ"
+        }
+      ]
+    },
+    {
+      "titulo": "World Music",
+      "cor": "#6b5be2",
+      "link_extra": {
+        "text": "Musicas ao redor do mundo",
+        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+      },
+      "videos": [
+        {
+          "titulo": "OF MONSTERS AND MEN",
+          "url": "https://www.youtube.com/watch?v=qt7ox1M_XG4"
+        },
+        {
+          "titulo": "PITTY",
+          "url": "https://www.youtube.com/watch?v=ehREM38xTBw"
+        },
+        {
+          "titulo": "SHAKIRA",
+          "url": "https://www.youtube.com/watch?v=pRpeEdMmmQ0"
+        },
+        {
+          "titulo": "PSY",
+          "url": "https://www.youtube.com/watch?v=9bZkp7q19f0"
+        }
+      ]
+    }
+  ]
+}
