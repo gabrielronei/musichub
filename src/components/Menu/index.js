@@ -2,16 +2,19 @@ import React from 'react';
 import LogoMusic from '../../components/LogoMusic';
 import './Menu.css';
 import ButtonLink from '../components/MenuLink';
+import { Link } from 'react-router-dom';
 
 
 function Menu() {
     return (
         <nav className="Menu">
-            <a href="/">
+            <Link to="/">
                 <LogoMusic />
-            </a>
+            </Link>
 
-            <ButtonLink className="ButtonLink" href="/"> Novo vídeo </ButtonLink>
+            <ButtonLink className="ButtonLink" to="/cadastro/video"> 
+                Novo vídeo 
+            </ButtonLink>
         </nav>
     );
 }
