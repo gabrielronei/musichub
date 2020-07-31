@@ -20,7 +20,9 @@ function CadastroCategoria() {
   }
 
   useEffect(() => {
-    const URL = 'https://musichub-imersao.herokuapp.com/categorias';
+    const URL = window.location.hostname.includes('localhost')
+      ? 'http://localhost:3000/categorias'
+      : 'https://musichub-imersao.herokuapp.com/categorias';
     fetch(URL).then(async (resposta) => {
       const categoriasServidor = await resposta.json();
       setCategorias([
