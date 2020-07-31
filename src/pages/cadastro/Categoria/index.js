@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import ReactLoading from 'react-loading';
 import PageDefault from '../../../components/PageDefault';
 import CategoriaPreviewCard from '../../../components/components/CategoriaPreview';
 import FormField from '../../../components/components/FormField';
@@ -21,14 +22,16 @@ function CadastroCategoria() {
 
   useEffect(() => {
     const URL = window.location.hostname.includes('localhost')
-      ? 'http://localhost:3000/categorias'
+      ? 'http://localhost:3001/categorias'
       : 'https://musichub-imersao.herokuapp.com/categorias';
     fetch(URL).then(async (resposta) => {
       const categoriasServidor = await resposta.json();
-      setCategorias([
-        ...categoriasServidor,
-      ]);
-    });
+      setTimeout(() => {
+        setCategorias([
+          ...categoriasServidor,
+        ]);
+      });
+    }, 10 * 1000);
   }, []);
 
   return (
@@ -80,7 +83,7 @@ function CadastroCategoria() {
 
       { categorias.length === 0 && (
       <div>
-        Loading...
+        <ReactLoading type="balls" />
       </div>
       )}
 
