@@ -11,20 +11,18 @@ const Card = styled.h3`
   padding: 20px;
   background: 'white';
   border-radius: 4px;
-`;    
+`;
 
 Card.defaultProps = {
   className: '',
   cor: '',
 };
 
-function CategoriaPreviewCard(props) {
+function CategoriaPreviewCard({cor, children}) {
 
-    return (
-        <Card style={{background: props.cor}}>{props.children}</Card>
-    );
-
+  return (
+    <Card style={{ background: cor }}>{children}</Card>
+  );
 }
-
 
 export default CategoriaPreviewCard;
