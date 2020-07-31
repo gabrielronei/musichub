@@ -8,12 +8,12 @@ import Footer from '../../components/Footer';
 function Home() {
   return (
     <>
-      <div style={{ background: "#141414" }}>
-      <Menu/>
+      <div style={{ background: '#141414' }}>
+        <Menu />
         <BannerMain
           videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
           url={dadosIniciais.categorias[0].videos[0].url}
-          videoDescription={"MUSICHUB - Seu portal de musicas ao redor do mundo."}
+          videoDescription="MUSICHUB - Seu portal de musicas ao redor do mundo."
         />
 
         <Carousel
@@ -27,22 +27,22 @@ function Home() {
 
         <Carousel
           category={dadosIniciais.categorias[2]}
-        />      
+        />
 
         <Carousel
           category={dadosIniciais.categorias[3]}
-        />      
+        />
 
         <Carousel
           category={dadosIniciais.categorias[4]}
-        />      
+        />
 
         <Carousel
           category={dadosIniciais.categorias[5]}
-        />      
-      
-      <Footer/>
-    </div>  
+        />
+
+        <Footer />
+      </div>
     </>
   );
 }

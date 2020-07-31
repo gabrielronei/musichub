@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import CategoriaPreviewCard from '../../../components/components/CategoriaPreview';
@@ -6,6 +6,7 @@ import FormField from '../../../components/components/FormField';
 
 function CadastroCategoria() {
   const categoriaModel = {
+    id: '',
     nome: '',
     descricao: '',
     cor: '#000000',
@@ -17,6 +18,16 @@ function CadastroCategoria() {
   function setValores(chave, valor) {
     setCategoria({ ...categoria, [chave]: valor });
   }
+
+  useEffect(() => {
+    const URL = 'http://localhost:3001/categorias';
+    fetch(URL).then(async (resposta) => {
+      const categoriasServidor = await resposta.json();
+      setCategorias([
+        ...categoriasServidor,
+      ]);
+    });
+  }, []);
 
   return (
     <PageDefault>
@@ -65,10 +76,16 @@ function CadastroCategoria() {
         <button type="submit"> Cadastrar </button>
       </form>
 
+      { categorias.length === 0 && (
+      <div>
+        Loading...
+      </div>
+      )}
+
       <ul>
-        {categorias.map((categoria, indice) => (
-          <li key={`${categoria} ${indice}`}>
-            {categoria.nome}
+        {categorias.map((c) => (
+          <li key={c.id}>
+            {c.nome}
           </li>
         ))}
       </ul>
