@@ -1,23 +1,21 @@
 import React from 'react';
-import LogoMusic from '../../components/LogoMusic';
+import { Link } from 'react-router-dom';
 import './Menu.css';
 import ButtonLink from '../components/MenuLink';
-import { Link } from 'react-router-dom';
-
+import LogoMusic from '../LogoMusic';
 
 function Menu() {
-    return (
-        <nav className="Menu">
-            <Link to="/">
-                <LogoMusic />
-            </Link>
+  return (
+    <nav className="Menu">
+      <Link to="/">
+        <LogoMusic />
+      </Link>
 
-            <ButtonLink className="ButtonLink" to="/cadastro/video"> 
-                Novo vídeo 
-            </ButtonLink>
-        </nav>
-    );
+      <ButtonLink className="ButtonLink" to="/cadastro/video">
+        Novo vídeo
+      </ButtonLink>
+    </nav>
+  );
 }
-
 
 export default Menu;

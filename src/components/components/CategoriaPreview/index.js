@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 
 const Card = styled.h3`
   font-style: normal;
@@ -13,16 +14,20 @@ const Card = styled.h3`
   border-radius: 4px;
 `;
 
-Card.defaultProps = {
-  className: '',
-  cor: '',
-};
-
-function CategoriaPreviewCard({cor, children}) {
-
+function CategoriaPreviewCard({ cor, children }) {
   return (
     <Card style={{ background: cor }}>{children}</Card>
   );
 }
+
+CategoriaPreviewCard.defaultProps = {
+  children: '',
+  cor: '',
+};
+
+CategoriaPreviewCard.propTypes = {
+  cor: PropTypes.string,
+  children: PropTypes.string,
+};
 
 export default CategoriaPreviewCard;
