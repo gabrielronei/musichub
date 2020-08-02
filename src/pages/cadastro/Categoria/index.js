@@ -4,6 +4,7 @@ import ReactLoading from 'react-loading';
 import PageDefault from '../../../components/PageDefault';
 import CategoriaPreviewCard from '../../../components/components/CategoriaPreview';
 import FormField from '../../../components/components/FormField';
+import categoriasRepository from '../../../repositories/categorias';
 
 function CadastroCategoria() {
   const categoriaModel = {
@@ -21,17 +22,11 @@ function CadastroCategoria() {
   }
 
   useEffect(() => {
-    const URL = window.location.hostname.includes('localhost')
-      ? 'http://localhost:3001/categorias'
-      : 'https://musichub-imersao.herokuapp.com/categorias';
-    fetch(URL).then(async (resposta) => {
-      const categoriasServidor = await resposta.json();
-      setTimeout(() => {
-        setCategorias([
-          ...categoriasServidor,
-        ]);
+    categoriasRepository.getAll()
+      .then((categoriasRep) => setCategorias([...categoriasRep]))
+      .catch((err) => {
+        console.log(err);
       });
-    }, 10 * 1000);
   }, []);
 
   return (

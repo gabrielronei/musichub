@@ -2,42 +2,15 @@
     "categorias": [
       {
         "id": 1,
-        "nome": "World Music",
-        "cor": "#6b5be2",
+        "nome": "Anos 2010",
+        "cor": "#D68123",
         "link_extra": {
-            "text": "Musicas ao redor do mundo",
-            "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+        "text": "Não sei o que se tornou após 2010, mas são musicas da atualidade",
+        "url": "https://pt.wikipedia.org/wiki/D%C3%A9cada_de_2010"
         }
       },
       {
         "id": 2,
-        "nome": "Desenhos",
-        "cor": "red",
-        "link_extra": {
-          "text": "Melhores aberturas de desenho",
-          "url": "https://www.youtube.com/watch?v=hTWKbfoikeg"
-        }
-      },
-      {
-        "id": 3,
-        "nome": "Anos 80",
-        "cor": "#E069A4",
-        "link_extra": {
-        "text": "Os anos 80",
-        "url": "https://pt.wikipedia.org/wiki/D%C3%A9cada_de_1980"
-        }
-      },
-      {
-        "id": 4,
-        "nome": "Anos 90",
-        "cor": "#34ED79",
-        "link_extra": {
-        "text": "Os anos 90",
-        "url": "https://pt.wikipedia.org/wiki/D%C3%A9cada_de_1990"
-        }
-      },
-      {
-        "id": 5,
         "nome": "Anos 2000",
         "cor": "#248BD6",
         "link_extra": {
@@ -46,223 +19,250 @@
         }
       },
       {
-        "id": 6,
-        "nome": "Anos 2010",
-        "cor": "#D68123",
+        "id": 3,
+        "nome": "Anos 90",
+        "cor": "#34ED79",
         "link_extra": {
-        "text": "Não sei o que se tornou após 2010, mas são musicas da atualidade",
-        "url": "https://pt.wikipedia.org/wiki/D%C3%A9cada_de_2010"
+          "text": "Os anos 90",
+          "url": "https://pt.wikipedia.org/wiki/D%C3%A9cada_de_1990"
+        }
+      },
+      {
+        "id": 4,
+        "nome": "Anos 80",
+        "cor": "#E069A4",
+        "link_extra": {
+        "text": "Os anos 80",
+        "url": "https://pt.wikipedia.org/wiki/D%C3%A9cada_de_1980"
+        }
+      },
+      {
+        "id": 5,
+        "nome": "Desenhos",
+        "cor": "red",
+        "link_extra": {
+          "text": "Melhores aberturas de desenho",
+          "url": "https://www.youtube.com/watch?v=hTWKbfoikeg"
+        }
+      },
+      {
+        "id": 6,
+        "nome": "World Music",
+        "cor": "#6b5be2",
+        "link_extra": {
+            "text": "Musicas ao redor do mundo",
+            "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
         }
       }
     ],
     "videos": [
       {
         "id": 1,
-        "categoriaId": 1,
+        "categoriaId": 6,
         "titulo": "OF MONSTERS AND MEN",
         "url": "https://www.youtube.com/watch?v=qt7ox1M_XG4"
       },
       {
         "id": 2,
-        "categoriaId": 1,
+        "categoriaId": 6,
         "titulo": "PITTY",
           "url": "https://www.youtube.com/watch?v=ehREM38xTBw"
       },
       {
         "id": 3,
-        "categoriaId": 1,
+        "categoriaId": 6,
         "titulo": "SHAKIRA",
         "url": "https://www.youtube.com/watch?v=pRpeEdMmmQ0"
       },
       {
         "id": 4,
-        "categoriaId": 1,
+        "categoriaId": 6,
         "titulo": "PSY",
           "url": "https://www.youtube.com/watch?v=9bZkp7q19f0"
       },
       {
         "id": 5,
-        "categoriaId": 2,
+        "categoriaId": 5,
         "titulo": "Pegasus Fantasy - Saint Seiya",
         "url": "https://www.youtube.com/watch?v=Bu533OKYHyc"
       },
       {
         "id": 6,
-        "categoriaId": 2,
+        "categoriaId": 5,
         "titulo": "Naruto Shippuden Opening 3 - Blue Bird",
         "url": "https://www.youtube.com/watch?v=aJRu5ltxXjc"
       },
       {
         "id": 7,
-        "categoriaId": 2,
+        "categoriaId": 5,
         "titulo": "Pokémon - Abertura",
           "url": "https://www.youtube.com/watch?v=-PlAg8R9TG4"
       },
       {
         "id": 8,
-        "categoriaId": 2,
+        "categoriaId": 5,
         "titulo": "Phineas e Ferb - Abertura",
         "url": "https://www.youtube.com/watch?v=A1a4CJjSBd4"
       },
       {
         "id": 9,
-        "categoriaId": 3,
+        "categoriaId": 4,
         "titulo": "Guns N' Roses - Sweet Child O' Mine",
           "url": "https://www.youtube.com/watch?v=1w7OgIMMRc4"
       },
       {
         "id": 10,
-        "categoriaId": 3,
+        "categoriaId": 4,
         "titulo": "George Michael - Careless Whisper",
         "url": "https://www.youtube.com/watch?v=izGwDsrQ1eQ"
       },
       {
         "id": 11,
-        "categoriaId": 3,
+        "categoriaId": 4,
         "titulo": "Cyndi Lauper - Girls Just Want To Have Fun",
           "url": "https://www.youtube.com/watch?v=PIb6AZdTr-A"
       },
       {
         "id": 12,
-        "categoriaId": 3,
+        "categoriaId": 4,
         "titulo": "Bonnie Tyler - Total Eclipse of the Heart",
         "url": "https://www.youtube.com/watch?v=lcOxhH8N3Bo"
       },
       {
         "id": 13,
-        "categoriaId": 4,
+        "categoriaId": 3,
         "titulo": "Nirvana - Smells Like Teen Spirit",
         "url": "https://www.youtube.com/watch?v=hTWKbfoikeg"
       },
       {
         "id": 14,
-        "categoriaId": 4,
+        "categoriaId": 3,
         "titulo": "Whitney Houston - I Will Always Love You",
           "url": "https://www.youtube.com/watch?v=3JWTaaS7LdU"
       },
       {
         "id": 15,
-        "categoriaId": 4,
+        "categoriaId": 3,
         "titulo": "Guns N' Roses - November Rain",
         "url": "https://www.youtube.com/watch?v=8SbUC-UaAxE"
       },
       {
         "id": 16,
-        "categoriaId": 4,
+        "categoriaId": 3,
         "titulo": "Spice Girls - Wannabe",
         "url": "https://www.youtube.com/watch?v=gJLIiF15wjQ"
       },
       {
         "id": 17,
-        "categoriaId": 4,
+        "categoriaId": 3,
         "titulo": "The Verve - Bitter Sweet Symphony",
         "url": "https://www.youtube.com/watch?v=1lyu1KKwC74"
       },
       {
         "id": 18,
-        "categoriaId": 4,
+        "categoriaId": 3,
         "titulo": "Cássia Eller - Malandragem",
         "url": "https://www.youtube.com/watch?v=bFRBQjBuQmo"
       },
       {
         "id": 19,
-        "categoriaId": 5,
+        "categoriaId": 2,
         "titulo": "FURACÃO 2000!",
         "url": "https://www.youtube.com/watch?v=59u21arrp3g"
       },
       {
         "id": 20,
-        "categoriaId": 5,
+        "categoriaId": 2,
         "titulo": "Justin Timberlake - What Goes Around...Comes Around",
         "url": "https://www.youtube.com/watch?v=TOrnUquxtwA"
       },
       {
         "id": 21,
-        "categoriaId": 5,
+        "categoriaId": 2,
         "titulo": "OutKast - Hey Ya!",
         "url": "https://www.youtube.com/watch?v=PWgvGjAhvIw"
       },
       {
         "id": 22,
-        "categoriaId": 5,
+        "categoriaId": 2,
         "titulo": "The Calling - Wherever You Will Go",
           "url": "https://www.youtube.com/watch?v=iAP9AF6DCu4"
       },
       {
         "id": 23,
-        "categoriaId": 5,
+        "categoriaId": 2,
         "titulo": "Beyoncé - Crazy In Love",
         "url": "https://www.youtube.com/watch?v=JptwkEhdNfY"
       },
       {
         "id": 24,
-        "categoriaId": 5,
+        "categoriaId": 2,
         "titulo": "Avril Lavigne - Girlfriend",
         "url": "https://www.youtube.com/watch?v=Bg59q4puhmg"
       },
       {
         "id": 24,
-        "categoriaId": 5,
+        "categoriaId": 2,
         "titulo": "Maroon 5 - This Love",
         "url": "https://www.youtube.com/watch?v=XPpTgCho5ZA"
       },
       {
         "id": 24,
-        "categoriaId": 5,
+        "categoriaId": 2,
         "titulo": "Pitty - Equalize",
         "url": "https://www.youtube.com/watch?v=x7WHL-o5tMo"
       },
       {
         "id": 24,
-        "categoriaId": 5,
+        "categoriaId": 2,
         "titulo": "Skank - Vou Deixar",
           "url": "https://www.youtube.com/watch?v=j9tAJ3ZyLMY"
       },
       {
         "id": 25,
-        "categoriaId": 6,
+        "categoriaId": 1,
         "titulo": "GUNS N' ROSES",
         "url": "https://www.youtube.com/watch?v=8SbUC-UaAxE"
       },
       {
         "id": 26,
-        "categoriaId": 6,
+        "categoriaId": 1,
         "titulo": "Adele - Someone Like You",
         "url": "https://www.youtube.com/watch?v=hLQl3WQQoQ0"
       },
       {
         "id": 27,
-        "categoriaId": 6,
+        "categoriaId": 1,
         "titulo": "The Black Eyed Peas - The Time",
         "url": "https://www.youtube.com/watch?v=JwQZQygg3Lk"
       },
       {
         "id": 28,
-        "categoriaId": 6,
+        "categoriaId": 1,
         "titulo": "Foo Fighters - Walk",
         "url": "https://www.youtube.com/watch?v=4PkcfQtibmU"
       },
       {
         "id": 29,
-        "categoriaId": 6,
+        "categoriaId": 1,
         "titulo": "Pharrell Williams - Happy",
         "url": "https://www.youtube.com/watch?v=ZbZSe6N_BXs"
       },
       {
         "id": 30,
-        "categoriaId": 6,
+        "categoriaId": 1,
         "titulo": "Katy Perry - California Gurls",
         "url": "https://www.youtube.com/watch?v=F57P9C4SAW4"
       },
       {
         "id": 30,
-        "categoriaId": 6,
+        "categoriaId": 1,
         "titulo": "Arctic Monkeys - Do I Wanna Know?",
         "url": "https://www.youtube.com/watch?v=bpOSxM0rNPM"
       },
       {
         "id": 31,
-        "categoriaId": 6,
+        "categoriaId": 1,
         "titulo": "Imagine Dragons - Radioactive",
         "url": "https://www.youtube.com/watch?v=ktvTqknDobU"
       }        
